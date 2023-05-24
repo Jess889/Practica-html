@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuarios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Registro de usuarios</h1>
+    <h2>Formulario para el registro de usuarios para una conferencia</h2>
+    <form name="enviar" action="registro.html" metod="get" autocomplete="off">
+        <table>
+            <tr>
+                <td><label for="usuario">Nombre: </label></td>
+                <td><input type="text" name="usuario" class="edit" placeholder="Nombre completo"></td>
+            </tr>
+            <tr>
+                <td><label for="edad">Edad: </label></td>
+                <td><input type="number" id="edad" class="edit" placeholder="Ingrese su edad"></td>
+            </tr>
+            <tr>
+                <td><label for="telefono">Telefono: </label></td>
+                <td><input type="number" id="edad" class="edit" placeholder="Ingrese su telefono"></td>
+            </tr>
+            <tr>
+                <td><label for="correo">Correo Electronico: <label></td>
+                <td><input type="email" id="correo" class="edit" placeholder="Introduce tu correo"></td>
+            </tr>
+            <tr>
+                <td><label for="procedencia">Lugar de procedencia: </label></td>
+                <td><input type="text" id="procedencia" class="edit" placeholder="Lugar de procedencia"></td>
+            </tr>
+            <tr>
+                <td><label for="ocupacion">Ocupacion</label></td>
+                <td>
+                    <select name="combo" id="ocupacion">
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Docentes">Docente</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Administrativo">Personal Administrativo</option>
+                        <option value="Contador">Contador</option>
+                    </select>
+                </td>
+                <tr>
+                    <td>
+                        <p>Talla de camiseta</p>
+                        <p>
+                            <br><input type="radio" name="talla" value="chica" class="opciones">S<br>
+                            <input type="radio" name="talla" value="mediano" class="opciones">M<br>
+                            <input type="radio" name="talla" value="grande" class="opciones">L<br>
+                            <input type="radio" name="talla" value="extra-grande" class="opciones">LM<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="preferencias">Preferencias dieteticas</label>
+                        <p>
+                            <br><input type="checkbox" name="preferencia" value="vegetariano" class="opciones">Vegetariano<br>
+                            <input type="checkbox" name="preferencia" value="vegano" class="opciones">Vegano<br>
+                            <input type="checkbox" name="preferencia" value="sinGluten" class="opciones">Sin gluten<br>
+                            <input type="checkbox" name="preferencia" value="sinRestricciones" class="opciones">Sin restricciones<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><label for="lenguajes">Seleccione los lenguajes de programacion que conoce</label></p>
+                        <p>
+                            <br><input type="checkbox" name="lenguajes" value="C++" class="opciones">C++<br>
+                            <input type="checkbox" name="lenguajes" value="JAVA" class="opciones">Java<br>
+                            <input type="checkbox" name="lenguajes" value="PHP" class="opciones">PHP<br>
+                            <input type="checkbox" name="lenguajes" value="CSHARP" class="opciones">C#<br>
+                            <input type="checkbox" name="lenguajes" value="JavaScript" class="opciones">JavaScript<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <input type="submit" value="Enviar" class="boton">
+                        </center>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de satisfaccion</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor-header">
+            <h1>Encuesta de satisfacción</h1>
+        </div>
+    </header>
+    <h2>Comentarios y evaluaciones de los participantes que asistieron al evento</h2>
+    <form name="envio" action="envio.html" metod="get" autocomplete="off">
+        <table>
+            <tr>
+                <td><label for="asistente">Nombre</label></td>
+                <tr><td><input type="text" name="usuario" class="edit" placeholder="Nombre completo"></td></tr>
+            </tr>
+            <tr>
+                <td><label for="edad">Edad </label></td>
+                <tr><td><input type="number" id="edad" class="edit" placeholder="Ingrese su edad"></td></tr>
+            </tr>
+            <tr>
+                <td><label for="telefono">Teléfono </label></td>
+                <tr><td><input type="number" id="edad" class="edit" placeholder="Ingrese su telefono"></td></tr>
+            </tr>
+            <tr>
+                <td><label for="correo">Correo eléctronico <label></td>
+                <tr><td><input type="email" id="correo" class="edit" placeholder="Introduce tu correo"></td></tr>
+            </tr>
+                <tr>
+                    <td>
+                        <p><b><label for="evaluacion" class="opciones">Evaluación de evento</label></b></p><br>
+                        <p>
+                            <input type="radio" name="evaluacion" value="Excelente">Excelente  
+                            <input type="radio" name="evaluacion" value="Bueno">Bueno  
+                            <input type="radio" name="evaluacion" value="Regular">Regular  
+                            <input type="radio" name="evaluacion" value="malo">Malo
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br><p><b><label for="actividades" class="opciones">¿Considera que los temas tratados durante el evento fueron adecuados?</label></b></p></p><br>
+                        <p>
+                            <input type="radio" name="temas" value="si" class="opciones1">Si, los temas tratados fueron adecuados<br>
+                            <input type="radio" name="temas" value="generalmente" class="opciones1">En general si, aunque había partes del temario que eran muy avanzadas<br>
+                            <input type="radio" name="temas" value="desacuerdo" class="opciones1">En general si, aunque los temas eran demasiado básicos<br>
+                            <input type="radio" name="temas" value="no" class="opciones1">No, los temas presentados no eran adecuados<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><b><label for="opinión" class="opciones">¿Cuál es su opinión frente al auditorio donde se llevo a cabo el evento?</label></b></p><br>
+                        <p>
+                            <input type="radio" name="opinión" value="exce" class="opciones2">Excelente<br>
+                            <input type="radio" name="opinión" value="muybueno" class="opciones2">Muy bueno<br>
+                            <input type="radio" name="opinión" value="bueno" class="opciones2">Bueno<br>
+                            <input type="radio" name="opinión" value="regular" class="opciones2">Regular<br>
+                            <input type="radio" name="opinión" value="malo" class="opciones2">Malo<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>
+                        <p><b><label for="actividades" class="opciones">¿Cómo calificas la forma en la que se comunicó acerca del evento?</label></b></p><br>
+                        <p>
+                            <input type="radio" name="calififcar" value="excelen" class="opciones3">Excelente<br>
+                            <input type="radio" name="calififcar" value="muybueno" class="opciones3">Muy bueno<br>
+                            <input type="radio" name="calififcar" value="bueno" class="opciones3">Bueno<br>
+                            <input type="radio" name="calififcar" value="regular" class="opciones3">Regular<br>
+                            <input type="radio" name="calififcar" value="malo" class="opciones3">Malo<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>
+                        <p><b><label for="actividades">¿Recomendarías este evento?</label></b></p><br>
+                        <p>
+                            <input type="radio" name="recomendar" value="si" class="opciones4">Si<br>
+                            <input type="radio" name="recomendar" value="no" class="opciones4">No<br>
+                            <input type="radio" name="recomendar" value="talvez" class="opciones4">Tal vez<br>
+                        </p>
+                    </td>
+                </tr>
+                    <td>
+                        <p><b><label for="cuadro">Comentarios o sugerencias</label></b></p><br>
+                        <textarea name="comentarios" id="comenta" cols="70" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <input type="submit" value="Enviar" class="boton">
+                        </center>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

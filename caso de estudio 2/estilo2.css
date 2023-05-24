@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000000;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 22px;
+    margin-top: 20px;
+    color: azure;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 23px;
+    color: azure;
+}
+body{
+    background: linear-gradient(135deg, #456f8b, #5e406a);
+}
+.edit {
+    width: 300px;
+    color: #ffffff;
+    text-decoration: #070808;
+    background: #324251;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #fafbfd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+label{
+    color: #ffffff;
+}
+.opciones{
+    margin-top: 2px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #71458b, #5e406a);
+    padding: 10px;
+    border: 1px solid #fafbfd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
