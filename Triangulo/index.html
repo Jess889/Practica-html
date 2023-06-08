@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangulo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Calcular área y perímetro de un triángulo, definir que tipo de triángulo es...</h1>
+    <table class="edit">
+        <tr>
+            <td><label for="lado1">Ingrese el valor del lado 1: </label></td>
+            <td><input type="number" name="lado1" id="lado1"></td>
+        </tr>
+        <tr>
+            <td><label for="lado2">Ingrese el valor del lado 2:</label></td>
+            <td><input type="number" name="lado2" id="lado2"></td>
+        </tr>
+        <tr>
+            <td><label for="lado3">Ingrese el valor del lado 3:</label></td>
+            <td><input type="number" name="lado3" id="lado3"></td>
+        </tr>
+    </table>
+    <button class="mover" onclick="calcular()">Calcular Area</button>
+    <button class="otro" onclick="calcularPerimetro()">Calcular Perímetro</button>
+    <button onclick="calcularTipo()">Tipo de triángulo</button>
+    <div class="resul" id="resultado"></div>
+    <script src="codigo.js"></script>
+</body>
+</html>
