@@ -1,0 +1,45 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn1{
+    margin-right: 12px;
+}
+body{
+    background: linear-gradient(135deg, #456f8b, #5e406a);
+}
+button{
+    width: 200px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #563a68, #592c69);
+    padding: 4px;
+    border: 1px solid #fafbfd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+input{
+    background: linear-gradient(135deg, #3d3a68, #392c69);
+    color: #fafbfd;
+    text-align: center;
+    font-size: 16px;
+}
+label{
+    font-size: 18px;
+    color: aliceblue;
+}
+select, option{
+    background: linear-gradient(135deg, #3a5068, #2c4469);
+    color: #fafbfd;
+    text-align: center;
+    font-size: 16px;
+}
+.mod{
+    background: #2c4469;
+}
+div{
+    color: antiquewhite;
+    margin-top: 24px;
+    font-size: 20px;
+}

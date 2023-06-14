@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>CONVERSION</title>
+    <link rel="stylesheet" href="estilo.css">
+ </head>
+    <body>
+      <center>
+         <h1>Conversion de Pesos a Dólares</h1>
+         <br>
+         <form id="conversion-form">
+            
+            <label for="amount">Cantidad:</label>
+            <input type="number" id="amount" step="0.01" required>
+            <br>   
+          <br>
+          <label for="currency">Tipo de conversión:</label>
+          <br>
+          <br>
+          <select id="currency" required>
+            <option class="mod" value="pesos">Pesos a Dólares</option>
+            <option class="mod" value="dolares">Dólares a Pesos</option>
+             </select>
+             <br>
+             <br>
+             <label for="exchange-rate">Valor del dólar:</label>
+             <input type="number" id="exchange-rate" step="0.01" required>
+             <br>
+             <br>
+             <button class="btn1" type="submit">Convertir</button>
+             <button class="btn2" type="button" onclick="resetForm()">Limpiar</button>
+             <br>
+         </form>
+   
+         <div id="result"></div>
+        </center>
+    </body>
+</html>
+<script src="codigo.js"></script>
